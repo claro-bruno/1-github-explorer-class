@@ -11,10 +11,10 @@ export default class Counter extends Component {
   }
   
   handleIncrement() {
-    const { counter } = this.state;
-    this.setState({
-      counter: counter + 1,
-    });
+    // const { counter } = this.state;
+    this.setState(prevState => ({
+      counter: prevState.counter + 1
+    }))
   }
 
   render() {
