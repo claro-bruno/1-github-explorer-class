@@ -1,4 +1,5 @@
 import RepositoryItem from "../RepositoryItem";
+import './style.scss';
 
 export default function repositoryList(){
 
