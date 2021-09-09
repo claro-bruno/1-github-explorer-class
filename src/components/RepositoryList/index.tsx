@@ -40,7 +40,7 @@ export default class repositoryList extends Component<{},Repository> {
   
   async fetchRepositories() {
     const response = await fetch(
-      "https://api.github.com/orgs/rocketseat/repos"
+      "https://api.github.com/orgs/trybe/repos"
     );
 
     const result = await response.json();
